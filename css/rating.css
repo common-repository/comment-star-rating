@@ -1,0 +1,103 @@
+/* raty overwrite */
+#input-type-star .star-on-png,
+#input-type-star .star-off-png,
+#input-type-star .star-half-png {
+    font-family: FontAwesome;
+    color: #daa520;
+    font-size: 20px;
+}
+#input-type-star .star-on-png:before {
+    /*content: "\f155";*/
+    content: "\f005";
+}
+#input-type-star .star-half-png:before {
+    /*content: "\f459";*/
+    content: "\f123";
+}
+#input-type-star .star-off-png:before {
+    /*content: "\f154";*/
+    content: "\f006";
+}
+
+/* wp_star_rating() style */
+.screen-reader-text {
+  display: none;
+}
+.star-rating {
+  margin: 0.5em 0;
+}
+.star-rating .star-full:before {
+    /*content: "\f155";*/
+    content: "\f005";
+}
+
+.star-rating .star-half:before {
+    /*content: "\f459";*/
+    content: "\f123";
+}
+
+.star-rating .star-empty:before {
+    /*content: "\f154";*/
+    content: "\f006";
+}
+
+.star-rating .star {
+    color: #daa520;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: 20px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: inherit;
+    vertical-align: top;
+    width: 20px;
+}
+
+/* #star-conter */
+.star-counter {
+  width: 400px;
+}
+
+.horizontal-bar-graph {
+  display: table;
+  width: 100%;
+}
+
+.horizontal-bar-graph-segment {
+  display: table-row;
+}
+
+.horizontal-bar-graph-label {
+  display: table-cell;
+  text-align: right;
+  padding: 4px 10px 4px 0;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.horizontal-bar-graph-value {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.horizontal-bar-graph-value-bg {
+  background: #ececec;
+  line-height: 1;
+}
+.horizontal-bar-graph-value-bar {
+  background: #daa520;
+  box-sizing: border-box;
+  height: 1.7em;
+  vertical-align: bottom;
+  overflow: visible;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.horizontal-bar-graph-num {
+  padding: 0 0 0 10px;
+}
